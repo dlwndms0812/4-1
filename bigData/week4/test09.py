@@ -27,7 +27,7 @@ print(df3.tail(2))
 
 print(df3['이름'])
 
-df3.to_csv('pandaTestWrite.csv', encoding='utf-8')
+df3.to_csv('/Users/jueun/Documents/4-1/github/bigData/week4/pandaTestWrite.csv', encoding='utf-8')
 
-df4 = pd.read_csv('inputTest.csv', encoding='utf-8', index_col = 0, engine='python')
+df4 = pd.read_csv('/Users/jueun/Documents/4-1/github/bigData/week4/inputTest.csv', encoding='utf-8', index_col = 0, engine='python')
 print(df4)
